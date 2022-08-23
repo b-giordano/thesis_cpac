@@ -19,5 +19,5 @@ In this GitHub repository, one can find:
 * the manuscript for the Master's thesis in `./manuscript`,
 * the slides used during the defense of the Master's thesis in `./slides`,
 * some scripts developped during the project in `/scripts`,
-* and the training corpus used for the automatic annotation with VarIDE in `./train_corpus`.
+* and the training corpus used for the French automatic annotation with VarIDE in `./train_corpus`.
 
