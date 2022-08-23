@@ -16,7 +16,7 @@ All corpora are in the `cupt` format, an extended CoNLL format used by [PARSEME]
 Below is a sentence in the `cupt` format. The main difference with a standard CoNLL file is the 11th column `PARSEME:MWE`. Our annotations (`X:COLL`) go in this column.
 
 ```
-# global.columns =	ID	FORM	LEMMA	UPOS	XPOS	FEATS	HEAD	DEPREL	DEPS	MISC	PARSEME:MWE
+# global.columns = ID FORM LEMMA UPOS XPOS FEATS HEAD DEPREL DEPS MISC PARSEME:MWE
 # source_sent_id = WM/WM.tri.fr::1
 # text = La découverte de ces similitudes offre l'espoir d'avancées thérapeutiques qui pourraient améliorer simultanément de nombreuses maladies,.
 1	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_	*
