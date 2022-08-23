@@ -5,8 +5,7 @@ This folder contains 3 ZIP archives:
 * `projection.gold.ar.zip`: contains the full Arabic annotated corpus,
 * `projection.gold.en.zip`: contains the full English annotated corpus.
 
-Our parallel corpus is also multi-genre. Each corpus (>100k sentences) contains  
-sentences from 4 different parallel corpora:
+Our parallel corpus is also multi-genre. Each corpus (>100k sentences) contains sentences from 4 different parallel corpora:
 * [GlobalVoices v2018q4](https://opus.nlpl.eu/GlobalVoices.php),
 * [TED2020](https://opus.nlpl.eu/TED2020.php),
 * [United Nations Parallel Corpus](https://conferences.unite.un.org/uncorpus),
