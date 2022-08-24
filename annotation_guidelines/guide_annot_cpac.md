@@ -20,7 +20,7 @@
 
 ---
 
-## (1) Contexte<a name="contexte"></a>
+## (1) Contexte
 
 Les **corpus parallèles** contiennent habituellement au moins deux textes, un original et sa traduction, ayant été au préalable alignés au niveau de la phrase. Ce sont des ressources très importantes pour plusieurs domaines, notamment pour le traitement automatique des langues (TAL) : 
 
