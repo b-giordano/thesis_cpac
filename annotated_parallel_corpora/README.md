@@ -43,7 +43,7 @@ Below is a sentence in the `cupt` format. The main difference with a standard Co
 ```
 
 ### Statistics of the corpora
-Number of tokens, sentences and annotations per language:  
+#### Number of tokens, sentences and annotations per language  
 
 | Language | Tokens    | Sentences | Annotations |
 |----------|-----------|-----------|-------------|
@@ -51,7 +51,7 @@ Number of tokens, sentences and annotations per language:
 | EN       | 2,920,239 | 105,731   | 5,976       |
 | AR       | 2,904,790 | 105,731   | 5,342       |
 
-Number of annotations per subcorpus per language:
+#### Number of annotations per subcorpus per language
 
 | Subcorpus      | FR    | EN    | AR    |
 |----------------|-------|-------|-------|
@@ -60,7 +60,7 @@ Number of annotations per subcorpus per language:
 | United Nations | 2,875 | 2,277 | 1,985 |
 | WikiMatrix     | 1,847 | 1,446 | 1,609 |
 
-Most frequent collocations per subcorpus per language
+#### Most frequent collocations per subcorpus per language
 
 | Subcorpus      | FR                     | EN                       | AR                |
 |----------------|------------------------|--------------------------|-------------------|
