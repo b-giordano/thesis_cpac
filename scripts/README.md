@@ -2,10 +2,10 @@
 
 ### Python scripts
 This folder contains the main Python scripts used during the project:
-* Creation of `conll` files from plain text, then into `cupt` files,
-* Extraction and classification of annotations, as well as identification of unique patterns,
-* Creation of regular expressions from lists of collocation patterns for the manual corpus curation,
-* Projection of annotations according to alignment files.
+* Creation of `conll` files from plain text, then into `cupt` files (prefix `0X_`),
+* Extraction and classification of annotations, as well as identification of unique patterns (prefix `1X_`),
+* Creation of regular expressions from lists of collocation patterns for the manual corpus curation (prefix `2X_`),
+* Projection of annotations according to alignment files (prefix `3X_`).
 
 Evaluation work and `cupt` validation were done with PARSEME's scripts.
 Many menial tasks were done with really short and simple programs. Those are not included here.
