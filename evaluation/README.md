@@ -1,7 +1,7 @@
 ## Evaluation
 
 This folder contains all the relevant evaluation files for our work.  
-All these files were generated thanks to the PARSEME's evaluation script.
+All these files were generated thanks to the [PARSEME's evaluation script](https://gitlab.com/parseme/sharedtask-data/-/tree/master/1.1/bin).
 
 There are 4 subfolders:
 * `0_french_automatic_annotation_eval`: contains the evaluation files for the initial French automatic annotation phase (a standard one on 500 randomly extracted and subtracted sentences from the training corpus and another one on the fully corrected French parallel corpus, both full and per subcorpus). Below are the results for the standard evaluation:  
