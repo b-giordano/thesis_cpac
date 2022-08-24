@@ -45,11 +45,11 @@ Below is a sentence in the `cupt` format. The main difference with a standard Co
 ### Statistics of the corpora
 #### Number of tokens, sentences and annotations per language  
 
-| Language | Tokens    | Sentences | Annotations |
-|----------|-----------|-----------|-------------|
-| FR       | 3,358,017 | 105,731   | 7,211       |
-| EN       | 2,920,239 | 105,731   | 5,976       |
-| AR       | 2,904,790 | 105,731   | 5,342       |
+| Language | FR        | EN        | AR     |
+|----------|-----------|-----------|-------|
+| Tokens       | 3,358,017 | 2,920,239 | 2,904,790 |
+| Sentences       | 105,731 | 105,731   | 105,731 |
+| Annotations       | 7,211     | 5,976     | 5,342 |
 
 #### Number of annotations per subcorpus per language
 
