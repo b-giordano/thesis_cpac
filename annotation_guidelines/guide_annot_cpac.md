@@ -135,9 +135,6 @@ D'une manière générale, les annotations peuvent être continues ou discontinu
 
 ### (3.1) Arbre de décision générique
 
-![arbre_decision](arbredecision.png "Arbre de décision générique")
-
-test
 ```mermaid
 	graph TD
     A[Le candidat collocation possède <br>un composant <b>verbal</b> et un composant <b>nominal</b>]
@@ -145,33 +142,33 @@ test
     A -.fa:fa-ban Non.-> C
     B[Le verbe n'est <b>PAS un verbe faible</b>]
     C[Pas une collocation]
-    style C fill:#FAC8C8,stroke:#333,stroke-width:1px
+    style C fill:#FAC8C8,stroke:#333,stroke-width:1px,color:black;
     B -.fa:fa-ban Non.-> E
     B ==fa:fa-check Oui==> D
     D[Les deux composants sont en <br><b>relation de dépendance syntaxique</b>]
     E[Pas une collocation]
-    style E fill:#FAC8C8,stroke:#333,stroke-width:1px
+    style E fill:#FAC8C8,stroke:#333,stroke-width:1px,color:black;
     D ==fa:fa-check Oui==> F
     D -.fa:fa-ban Non.-> G
     G[Pas une collocation]
-    style G fill:#FAC8C8,stroke:#333,stroke-width:1px
+    style G fill:#FAC8C8,stroke:#333,stroke-width:1px,color:black;
     F[Appliquer le test T1 du <br><b>passage à la diathèse passive</b>. <br>Le test est-il validé ?]
     F -.fa:fa-ban Non.-> I
     F ==fa:fa-check Oui==> H
     I[Pas une collocation]
-    style I fill:#FAC8C8,stroke:#333,stroke-width:1px
+    style I fill:#FAC8C8,stroke:#333,stroke-width:1px,color:black;
     H[Appliquer le test T2 du <br><b>changement de déterminant</b>. <br>Le test est-il validé ?]
     H ==fa:fa-check Oui==> J
     H -.fa:fa-ban Non.-> K
     K[Pas une collocation]
-    style K fill:#FAC8C8,stroke:#333,stroke-width:1px
+    style K fill:#FAC8C8,stroke:#333,stroke-width:1px,color:black;
     J[Appliquer le test T3 d'<b>insertion <br>de modifieur adjectival / adverbial</b>. <br>Le test est-il validé ?]
     J -.fa:fa-ban Non.-> M
     J ==fa:fa-check Oui==> L
     M[Pas une collocation]
-    style M fill:#FAC8C8,stroke:#333,stroke-width:1px
+    style M fill:#FAC8C8,stroke:#333,stroke-width:1px,color:black;
     L[Il <b>peut</b> s'agir d'une collocation. <br><b>Annoter</b> ou, en cas de doute, <br><b>vérifier le score d'association</b>]
-    style L fill:#C7FACD,stroke:#333,stroke-width:1px
+    style L fill:#C7FACD,stroke:#333,stroke-width:1px,color:black;
 ```
 
 
