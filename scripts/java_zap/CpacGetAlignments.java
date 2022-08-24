@@ -20,7 +20,7 @@ public class CpacGetAlignments {
 
         Pattern regex = Pattern.compile(pattern);
 
-        HeuristicAligner aligner;
+        HeuristicAligner aligner = null;
         if (heuristicLang.equals("fr")) {
             aligner = HeuristicAligner.getInstance(Language.FRENCH);
         } else if (heuristicLang.equals("ar")) {
@@ -58,7 +58,9 @@ public class CpacGetAlignments {
             Sentence targetSentence = sentencesLang2.get(i);
 
             BiSentence biSentence = new BiSentence(sourceSentence, targetSentence);
-            biSentence.align(aligner);
+            if (aligner != null) {
+                biSentence.align(aligner);
+            }
 
             String idPhrase = null;
             List<String> metadata = sourceSentence.getMetadata();

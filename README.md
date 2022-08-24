@@ -17,6 +17,6 @@ In this GitHub repository, one can find:
 * the annotation guidelines in `./annotation_guidelines`,
 * the evaluation of our work (automatic annotation and automatic projection) in `./evaluation`,
 * the manuscript for the Master's thesis in `./manuscript` (as well as the slides used during its defense),
-* some scripts developped during the project in `/scripts`,
+* some scripts developped during the project in `./scripts`,
 * and the training corpus used for the French automatic annotation with VarIDE in `./train_corpus`.
 
