@@ -7,7 +7,7 @@ This folder contains the main Python scripts used during the project:
 * Creation of regular expressions from lists of collocation patterns for the manual corpus curation (prefix `2X_`),
 * Projection of annotations according to alignment files (prefix `3X_`).
 
-Evaluation work and `cupt` validation were done with PARSEME's scripts.
+Evaluation work and `cupt` validation were done with [PARSEME's scripts](https://gitlab.com/parseme/sharedtask-data/-/tree/master/1.1/bin).
 Many menial tasks were done with really short and simple programs. Those are not included here.
 
 ### ZAP (Java projection tool)
