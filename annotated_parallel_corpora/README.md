@@ -1,5 +1,6 @@
 ## Annotated Parallel Corpora
 
+### Contents
 This folder contains 3 ZIP archives:
 * `annotation.gold.fr.zip`: contains the full French annotated corpus,
 * `projection.gold.ar.zip`: contains the full Arabic annotated corpus,
@@ -12,6 +13,7 @@ sentences from 4 different parallel corpora:
 * [United Nations Parallel Corpus](https://conferences.unite.un.org/uncorpus),
 * [WikiMatrix v1](https://opus.nlpl.eu/WikiMatrix.php).
 
+### Quick description of the `cupt` format
 All corpora are in the `cupt` format, an extended CoNLL format used by [PARSEME](https://typo.uni-konstanz.de/parseme/).  
 Below is a sentence in the `cupt` format. The main difference with a standard CoNLL file is the 11th column `PARSEME:MWE`. Our annotations (`X:COLL`) go in this column.
 
@@ -40,3 +42,31 @@ Below is a sentence in the `cupt` format. The main difference with a standard Co
 19	,	,	PUNCT	_	_	6	punct	_	_	*
 20	.	.	PUNCT	_	_	6	punct	_	_	*
 ```
+
+### Statistics of the corpora
+Number of tokens, sentences and annotations per language:  
+
+| Language | Tokens    | Sentences | Annotations |
+|----------|-----------|-----------|-------------|
+| FR       | 3,358,017 | 105,731   | 7,211       |
+| EN       | 2,920,239 | 105,731   | 5,976       |
+| AR       | 2,904,790 | 105,731   | 5,342       |
+
+Number of annotations per subcorpus per language:
+
+| Subcorpus      | FR    | EN    | AR    |
+|----------------|-------|-------|-------|
+| GlobalVoices   | 1,721 | 1,508 | 1,238 |
+| TED            | 768   | 745   | 510   |
+| United Nations | 2,875 | 2,277 | 1,985 |
+| WikiMatrix     | 1,847 | 1,446 | 1,609 |
+
+Most frequent collocations per subcorpus per language
+
+| Subcorpus      | FR                     | EN                       | AR                |
+|----------------|------------------------|--------------------------|-------------------|
+| GlobalVoices   | histoire,raconter (82) | story,tell (84)          | دور،لعب (54)      |
+| TED            | poser,question (99)    | story,tell (89)          | مشكلة،واجه (29)   |
+| United Nations | mesure,prendre (421)   | assistance,provide (211) | قدّم،مساعدة (164) |
+| WikiMatrix     | jouer,rôle (111)       | play,role (87)           | شغل،منصب (104)    |
+
