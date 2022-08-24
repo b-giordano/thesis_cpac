@@ -8,14 +8,14 @@
 ## Table des matières
 - **(1)** [Contexte](#1-contexte)
 - **(2)** [Collocations : définition et particularités](#2-collocations--définition-et-particularités)
-	- **(2.1)** [Identification d'une collocation](#21-identificationd-d-une-collocations)
+	- **(2.1)** [Identification d'une collocation](#21-identification-dune-collocation)
 	- **(2.2)** [Différences avec d'autres expressions polylexicales](#22-différences-avec-dautres-expressions-polylexicales)
 	- **(2.3)** [Délimitation](#23-délimitation)
 - **(3)** [Tests linguistiques](#3-tests-linguistiques)
 	- **(3.1)** [Arbre de décision générique](#31-arbre-de-décision-générique)
 	- **(T1)** [Passage à la diathèse passive](#t1-passage-à-la-diathèse-passive)
 	- **(T2)** [Changement de déterminant](#t2-changement-de-déterminant)
-	- **(T3)** [Ajout d'un modifieur](#t3-insertion-de-modifieurs)
+	- **(T3)** [Insertion de modifieurs](#t3-insertion-de-modifieurs)
 - [Références bibliographiques](#références-bibliographiques)
 
 ---
@@ -64,18 +64,18 @@ Les expressions idiomatiques, quant à elles, disposent d'un sens figuré. Il es
 L'annotation des collocations se fait en premier lieu avec l'application d'un outil automatique, VarIDE (Pasquer *et al.*, 2018). Ce dernier prend en entrée un fichier au format `cupt` (format CoNLL-U étendu) annoté et sa sortie est un autre fichier du même format. Voici un exemple annoté :
 
 	# text = Ils lui ont rendu un hommage des plus émouvants.
-	1 Ils il PRON _ Gender=Masc|Number=Plur|Person=3|PronType=Prs 4 nsubj _ _ *
-	2 lui lui PRON _ Number=Sing|Person=3|PronType=Prs 4 iobj _ _ *
-	3 ont avoir AUX _ Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin 4 aux:tense _ _ *
-	4 rendu rendre VERB _ Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part 0 root _ _ 1:COLL
-	5 un un DET _ Definite=Ind|Gender=Masc|Number=Sing|PronType=Art 6 det _ _ *
-	6 hommage hommage NOUN _ Gender=Masc|Number=Sing 4 obj _ _ 1
-	7-8 des _ _ _ _ _ _ _ _ *
-	7 de de ADP _ _ 10 case _ _ *
-	8 les le DET _ Definite=Def|Number=Plur|PronType=Art 10 det _ _ *
-	9 plus plus ADV _ _ 10 advmod _ _ *
-	10 émouvants émouvant ADJ _ Gender=Masc|Number=Plur 6 nmod _ _ *
-	11 . . PUNCT _ _ 4 punct _ _ *
+	1	Ils	il	PRON	_	Gender=Masc|Number=Plur|Person=3|PronType=Prs	4	nsubj	_	_	*
+	2	lui	lui	PRON	_	Number=Sing|Person=3|PronType=Prs	4	iobj	_	_	*
+	3	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux:tense	_	_	*
+	4	rendu	rendre	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	_	1:COLL
+	5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_	*
+	6	hommage	hommage	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	_	1
+	7-8	des	_	_	_	_	_	_	_	_	*
+	7	de	de	ADP	_	_	10	case	_	_	*
+	8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	_	*
+	9	plus	plus	ADV	_	_	10	advmod	_	_	*
+	10	émouvants	émouvant	ADJ	_	Gender=Masc|Number=Plur	6	nmod	_	_	*
+	11	.	.	PUNCT	_	_	4	punct	_	_	*
 
 **La 11ème colonne contient les annotations pour ce projet**. Si le token identifié ne fait pas partie d'une collocation, elle contient une astérisque `*`. Dans le cas contraire, le premier token de la collocation est marqué par un chiffre, correspondant au numéro de la collocation trouvée dans la phrase en question, suivi de deux-points `:` et de `COLL`, tandis que les autres éléments de la collocation ne sont notés qu'avec le chiffre. 
 
@@ -136,6 +136,13 @@ D'une manière générale, les annotations peuvent être continues ou discontinu
 ### (3.1) Arbre de décision générique
 
 ![arbre_decision](arbredecision.png "Arbre de décision générique")
+
+test
+```mermaid
+	graph TD;
+		A --> B;
+```
+
 
 ---
 
