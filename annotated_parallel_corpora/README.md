@@ -62,11 +62,11 @@ Below is a sentence in the `cupt` format. The main difference with a standard Co
 
 #### Most frequent collocations per subcorpus per language
 
-| Subcorpus      | FR                     | EN                       | AR                |
-|----------------|------------------------|--------------------------|-------------------|
-| GlobalVoices   | histoire,raconter (82) | story,tell (84)          | دور،لعب (54)      |
-| TED            | poser,question (99)    | story,tell (89)          | مشكلة،واجه (29)   |
-| United Nations | mesure,prendre (421)   | assistance,provide (211) | قدّم،مساعدة (164) |
-| WikiMatrix     | jouer,rôle (111)       | play,role (87)           | شغل،منصب (104)    |
-| Full corpus    | mesure,prendre (485)   | play,role (342)          | دور،لعب (203)     |
+| Subcorpus      | FR                                                                        | EN                                                                  | AR                                                       |
+|----------------|---------------------------------------------------------------------------|---------------------------------------------------------------------|----------------------------------------------------------|
+| GlobalVoices   | histoire,raconter (82)<br/>attention,attirer (70)<br/>jouer,rôle (68)     | story,tell (84)<br/>play,role (76)<br/>ask,question (37)            | دور،لعب (54)<br/>تحدّث،لعة (29)<br/>روى،قصّة (26)        |
+| TED            | poser,question (99)<br/>histoire,raconter (79)<br/>problème,résoudre (66) | story,tell (89)<br/>ask,question (72)<br/>decision,make (58)        | مشكلة،واجه (29)<br/>سؤال،طرح (28)<br/>طريقة،وجد (21)     |
+| United Nations | mesure,prendre (421)<br/>jouer,rôle (245)<br/>adopter,résolution (118)    | assistance,provide (211)<br/>play,role (159)<br/>measure,take (130) | قدّم،مساعدة (164)<br/>بذل،جهد (139)<br/>اتّخذ،قرار (100) |
+| WikiMatrix     | jouer,rôle (111)<br/>prix,recevoir (79)<br/>occuper,poste (45)            | play,role (87)<br/>publish,work (31)<br/>book,publish (31)          | شغل،منصب (104)<br/>دور،لعب (99)<br/>حصل،على،جائزة (64)   |
+| Full corpus    | mesure,prendre (485)<br/>jouer,rôle (448)<br/>décision,prendre (209)      | play,role (342)<br/>assistance,provide (236)<br/>story,tell (182)   | دور،لعب (203)<br/>قدّم،مساعدة (188)<br/>بذل،جهد (173)    |
 
