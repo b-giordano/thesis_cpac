@@ -1,3 +1,3 @@
 ## Annotation guidelines
 
-This folder contains the annotation guidelines.
+This folder contains the annotation guidelines (in French only).
