@@ -11,9 +11,9 @@ Evaluation work and `cupt` validation were done with [PARSEME's scripts](https:/
 Many menial tasks were done with really short and simple programs. Those are not included here.
 
 ### ZAP (Java projection tool)
-The subfolder `./java_zap` consists of the two Java classes needed to do the annotation projection (to generate alignment files). The two of them need to be in the ZAP framework:
-* `Language.java`: simple edited enum to be able to use the Arabic translation table. This class needs to replace that of ZAP's original framework.
-* `CpacGetAlignments.java`: the class to generate the alignments files. Can be inserted in `zap/src/main/java/zalando.analytics/annotation.transfer` in ZAP's original framework.
+The subfolder `./java_zap` consists of the two Java classes needed to do the annotation projection (to generate alignment files). The two of them need to be in the [ZAP](https://github.com/zalandoresearch/zap) framework:
+* `Language.java`: simple edited enum to be able to use the Arabic translation table. This class needs to replace that of [ZAP](https://github.com/zalandoresearch/zap)'s original framework.
+* `CpacGetAlignments.java`: the class to generate the alignments files. Can be inserted in `[ZAP](https://github.com/zalandoresearch/zap)/src/main/java/zalando.analytics/annotation.transfer` in [ZAP](https://github.com/zalandoresearch/zap)'s original framework.
 
 Moreover, to be able to project English annotations onto an Arabic file, a translation table is needed. The one we created and used is hosted [here](https://seafile.unistra.fr/f/27f8add9bd0d4b30aee7/?dl=1). 
-The archive must be unzipped and the `arabic-hmm.dict` file must be placed in `zap/src/main/resources` in ZAP's original framework.
+The archive must be unzipped and the `arabic-hmm.dict` file must be placed in `zap/src/main/resources` in [ZAP](https://github.com/zalandoresearch/zap)'s original framework.
