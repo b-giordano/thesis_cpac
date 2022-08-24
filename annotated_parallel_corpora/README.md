@@ -68,4 +68,5 @@ Below is a sentence in the `cupt` format. The main difference with a standard Co
 | TED            | poser,question (99)    | story,tell (89)          | مشكلة،واجه (29)   |
 | United Nations | mesure,prendre (421)   | assistance,provide (211) | قدّم،مساعدة (164) |
 | WikiMatrix     | jouer,rôle (111)       | play,role (87)           | شغل،منصب (104)    |
+| Full corpus    | mesure,prendre (485)   | play,role (342)          | دور،لعب (203)     |
 
