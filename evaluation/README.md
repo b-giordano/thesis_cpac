@@ -26,7 +26,7 @@ There are 4 subfolders:
 | Double | MWE   | 0.21      | 0.40   | 0.27    |
 | Double | Token | 0.46      | 0.64   | 0.53    |
 
-* `3_final_varide_eval`: contains the evaluation files for the final VarIDE automatic annotation. For each language, each annotated parallel corpus was split 75/25 (train/test). Below are the results for each language:
+* `3_final_varide_eval`: contains the evaluation files for the final VarIDE automatic annotation. For each language, each annotated parallel corpus was split 80/20 (train/test). Below are the results for each language:
 
 | Language | Precision | Recall | F-score |
 |----------|-----------|--------|---------|
